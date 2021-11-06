@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource name="CEF_POC_1">
+	<storedValue key="EGLProjectMigrationVersion" value="8.0.0"/>
+	<storedValue key="DefaultBuildDescriptorCobolTargetName" value="ToCobol"/>
+	<storedValue key="DefaultBuildDescriptorCobolTargetPath" value="CEF_POC_1/EGLSource/CEF_POC_1.eglbld"/>
+	<storedValue key="DefaultBuildDescriptorNonJavaScriptDebugName" value="CEF_POC_1DebugBuildOptions"/>
+	<storedValue key="EGLProjectFeatureMask" value="0"/>
+	<storedValue key="EGLProjectSecondaryMigrationVersion" value="9.0"/>
+	<storedValue key="DefaultBuildDescriptorNonJavaScriptDebugPath" value="CEF_POC_1/EGLSource/CEF_POC_1.eglbld"/>
+	<storedValue key="EGLTargetRuntimeMask" value="4"/>
+</resource>

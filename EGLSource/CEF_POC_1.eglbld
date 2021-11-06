@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE EGL PUBLIC "-//IBM Corporation, Inc.//DTD EGL Build Parts 6.0//EN" "">
+
+<EGL>
+<BuildDescriptor
+	name="ToCobol"
+	system="ZOSCICS"
+	genDirectory="C:\TEMP\EGLGenout\CEF\%EZEMBR%"
+	projectID="CEF_POC_1"
+	genDataTables="YES"
+	genFormGroup="YES"
+	genHelpFormGroup="YES"
+	targetNLS="PTB" 
+	prep="NO" 
+	maxNumericDigits="31" 
+	clientCodeSet="IBM-1252" 
+	v60DecimalBehavior="YES" 
+	v60NumWithCharBehavior="YES" 
+	vagCompatibility="YES" 
+	spacesZero="YES" 
+	initIORecordsOnCall="YES" 
+	decimalSymbol="," 
+	separatorSymbol="." 
+	genProject="CEF_POC_1" 
+	data="31">
+</BuildDescriptor>
+</EGL>

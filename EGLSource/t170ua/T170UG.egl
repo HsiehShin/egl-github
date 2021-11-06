@@ -1,0 +1,135 @@
+package t170ua;
+
+FormGroup T170UG
+ // STAGE 3 - Edit the formGroup
+  use T170UM01;
+end // end T170UG
+
+Form T170UM01 type textForm	// T170UG.T170UM01
+ { screenSizes = [[24,80],[32,80],[43,80]], formSize = [24,80], 
+  position = [1,1], validationBypassKeys = [pf6], msgField = VAGen_EZEMSG}
+
+// Start of Variable fields
+  T170UI-USUARIO char(8) 
+  { position = [1,1], fieldLen = 8, validationOrder = 1, color = defaultColor, 
+    highlight = noHighlight, intensity = normalIntensity, 
+    protect = skipProtect, upperCase = yes, align = left, 
+    fillCharacter = nullFill}; 
+  T170UI-APELIDO-CHAMOU char(6) 
+  { position = [1,20], fieldLen = 6, validationOrder = 2, 
+    color = defaultColor, highlight = noHighlight, intensity = bold, 
+    protect = skipProtect, upperCase = yes, align = left, 
+    fillCharacter = nullFill}; 
+  T170UI-NOM-CHAMOU char(29) 
+  { position = [1,29], fieldLen = 29, validationOrder = 3, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = skipProtect, upperCase = yes, 
+    align = left, fillCharacter = nullFill}; 
+  T170UI-DATA char(10) 
+  { position = [1,68], fieldLen = 10, validationOrder = 4, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = skipProtect, upperCase = yes, 
+    align = none, fillCharacter = " "}; 
+  T170UI-SISTEMA char(5)  // sigla do sistema
+  { position = [2,9], fieldLen = 5, validationOrder = 5, color = defaultColor, 
+    highlight = noHighlight, intensity = normalIntensity, 
+    protect = skipProtect, upperCase = yes, align = left, 
+    fillCharacter = nullFill}; 
+  T170UI-APELIDO-CHAMADA char(6) 
+  { position = [2,20], fieldLen = 6, validationOrder = 6, 
+    color = defaultColor, highlight = noHighlight, intensity = bold, 
+    protect = skipProtect, upperCase = yes, align = left, 
+    fillCharacter = nullFill}; 
+  T170UI-NOM-CHAMADA char(29) 
+  { position = [2,29], fieldLen = 29, validationOrder = 7, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = skipProtect, upperCase = yes, 
+    align = left, fillCharacter = nullFill}; 
+  T170UI-PAGINA num(2) 
+  { position = [4,76], fieldLen = 2, validationOrder = 8, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = skipProtect, sign = none, 
+    align = right, fillCharacter = "0"}; 
+  T170UI-ACAO char(1) [13] 
+  { position = [7,1], fieldLen = 1, validationOrder = 9, color = defaultColor, 
+    highlight = noHighlight, intensity = bold, protect = noProtect, 
+    upperCase = yes, align = left, fillCharacter = nullFill, 
+    validatorFunction = T170US-CRIT-ACAO,
+    indexOrientation = down,
+    this [1]  { cursor = yes }
+  };
+  T170UI-SI-UF char(2) [13]  // Sigla unidade federacao
+  { position = [7,10], fieldLen = 2, validationOrder = 10, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = protect, upperCase = yes, 
+    align = left, fillCharacter = nullFill,
+    indexOrientation = down
+  };
+  T170UI-NO-UF char(20) [13]  // Nome unidade federacao
+  { position = [7,20], fieldLen = 20, validationOrder = 11, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = protect, upperCase = yes, 
+    align = left, fillCharacter = nullFill,
+    indexOrientation = down
+  };
+  T170UI-PARAMETRO char(58) 
+  { position = [22,7], fieldLen = 58, validationOrder = 12, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = noProtect, upperCase = yes, 
+    align = left, fillCharacter = nullFill}; 
+  T170UI-DESTINO char(6)  // Nome da Aplicacao destino
+  { position = [22,72], fieldLen = 6, validationOrder = 13, 
+    color = defaultColor, highlight = noHighlight, 
+    intensity = normalIntensity, protect = noProtect, upperCase = yes, 
+    align = left, fillCharacter = nullFill}; 
+  VAGen_EZEMSG char(77)  // Mensagem
+  { position = [23,1], fieldLen = 77, validationOrder = 14, 
+    color = defaultColor, highlight = noHighlight, intensity = bold, 
+    protect = protect, upperCase = yes, align = left, 
+    fillCharacter = nullFill}; 
+
+// Start of Constant fields
+  * { position = [1,27], fieldLen = 1, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect, value = "-"};
+  * { position = [1,79], fieldLen = 9, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect, value = "  CAIXA -"};
+  * { position = [2,27], fieldLen = 1, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect, value = "-"};
+  * { position = [2,59], fieldLen = 176, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect,
+      value = "           T170UM01  -----------------------------------------------------------"
+            + "--------------------                                                            "
+            + "            Pag:"};
+  * { position = [4,79], fieldLen = 161, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect,
+      value = "  Acao     Sigla     Nome Unidade da Federacao"};
+  * { position = [19,3], fieldLen = 6, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, protect = protect  };
+  * { position = [19,41], fieldLen = 199, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect,
+      value = "                                                                                "
+            + "                                       -----------------------------------------"
+            + "--------------------------------------"};
+  * { position = [22,1], fieldLen = 5, color = defaultColor, 
+      highlight = noHighlight, intensity = bold, protect = skipProtect,
+      value = "Parm:"};
+  * { position = [22,66], fieldLen = 5, color = defaultColor, 
+      highlight = noHighlight, intensity = bold, protect = skipProtect,
+      value = "Dest:"};
+  * { position = [22,79], fieldLen = 1, color = defaultColor, 
+      highlight = noHighlight, intensity = bold, protect = protect  };
+  * { position = [23,79], fieldLen = 7, color = defaultColor, 
+      highlight = noHighlight, intensity = bold, protect = skipProtect,
+      value = "  PF  :"};
+  * { position = [24,7], fieldLen = 73, color = defaultColor, 
+      highlight = noHighlight, intensity = normalIntensity, 
+      protect = skipProtect,
+      value = "1-Ajuda  2-Confirma  3-Retorna  6-Desiste  7-Pag Ant  8-Pag Pos  12-Fim"};
+end // end T170UG.T170UM01
+

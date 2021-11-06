@@ -1,0 +1,2051 @@
+package t170ua;
+
+// CD_CEADM_AUT
+DataItem CD_CEADM_AUT smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_IMPRESSORA
+DataItem CD_IMPR char(4)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_IMPRESSORA
+DataItem CD_IMPRESSORA char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_NO_REMOT
+DataItem CD_NO_REMOT char(2)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_SUREG_AUT
+DataItem CD_SUREG_AUT smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_SUREG_LOT
+DataItem CD_SUREG_LOT smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_TRANS_CICS
+DataItem CD_TRANS_CICS char(4)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_UNIDADE
+DataItem CD_UNIDADE smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_UNID_AUT
+DataItem CD_UNID_AUT smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// COLNAME
+DataItem COLNAME char(30)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// COLNO
+DataItem COLNO smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// COLSEQ
+DataItem COLSEQ smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CREATOR
+DataItem CREATOR char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito calculado matricula
+DataItem GS999I-DIG-MAT-WRK num(5)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito calculado matricula
+DataItem GS999I-DIG-MATRICULA num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/2
+DataItem GS999I-MAT-2 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/3
+DataItem GS999I-MAT-3 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/4
+DataItem GS999I-MAT-4 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/5
+DataItem GS999I-MAT-5 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/6
+DataItem GS999I-MAT-6 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// digito a ser multiplic. p/7
+DataItem GS999I-MAT-7 num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da metricula nas telas
+DataItem GS999I-MATRICULA num(6)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da metricula nas telas
+DataItem GS999I-MATRICULA-WRK num(6)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// IBMREQD
+DataItem IBMREQD char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem IC_PESSOA_EXPOSTA char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// ID_CEF
+DataItem ID_CEF char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// ID_USU_UNID
+DataItem ID_USU_UNID char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// ID_VISAO_NACIONAL
+DataItem ID_VISAO_NACIONAL char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-AA-ADMISSAO num(4)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-AA-ATUAL num(4)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-AA-ATUALC char(4)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// ano referencia
+DataItem NA000I-AA-REF smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// apelido da aplicacao chamada
+DataItem NA000I-APELIDO-77MADA char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// apelido da aplicacao q. chamou
+DataItem NA000I-APELIDO-77MOU char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// apelido da aplicacao chamada
+DataItem NA000I-APELIDO-CHAMADA char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// apelido da aplicacao q. chamou
+DataItem NA000I-APELIDO-CHAMOU char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// aplicacao chamada c/5 posicoes
+DataItem NA000I-APL-77MADA char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// aplicacao que chamou c/5posico
+DataItem NA000I-APL-77MOU char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo da aplicacao
+DataItem NA000I-APL-CALL char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// aplicacao chamada c/5 posicoes
+DataItem NA000I-APL-CHAMADA char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// aplicacao que chamou c/5posico
+DataItem NA000I-APL-CHAMOU char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da aplicacao
+DataItem NA000I-APLICACAO char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome do mapa utilizado no call
+DataItem NA000I-CD-APPL char(5)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome do mapa utilizado no call
+DataItem NA000I-CD-MAPA char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-CD-OCOR num(5)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Codigo da operacao
+DataItem NA000I-CD-OPERACAO smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-CD-SUREG-LOT smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-CD-TERMINAL char(4)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_UNID_LOT
+DataItem NA000I-CD-UNID-LOT smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Unidade de trabbalho FCR
+DataItem NA000I-CD-UNID-TRAB smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD_VINCULACAO_FUN
+DataItem NA000I-CD-VINCULACAO-FUN smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-CEADM smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Check list SIARA
+DataItem NA000I-CHECK-LIST char(2)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Unidade da conta corrente
+DataItem NA000I-CO-UNID smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// COLNAME
+DataItem NA000I-COLNAME char(18)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// conta corrente
+DataItem NA000I-CONTA-CORRENTE char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-CONTROLADORA char(4)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DATA char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DD-ADMISSAO num(2)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DD-ATUAL num(2)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DD-ATUALC char(2)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// destino da navegacao
+DataItem NA000I-DESTINO char(6)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// destino utilizado no call
+DataItem NA000I-DESTINO-CALL char(6)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DT-ADMISSAO char(10)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DT-ATUAL char(10)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DT-FM-PEAQ char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DT-IN-FR char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DT-IN-PEAQ char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// data de inicio
+DataItem NA000I-DT-INICIO char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// data de inicio anterior
+DataItem NA000I-DT-INICIO-ANT char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-DV-CONTA smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// DV da matricula
+DataItem NA000I-DV-MATR-EMP num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// indica erro no navegador
+DataItem NA000I-ERRO num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// flag de erro no call
+DataItem NA000I-ERRO-CALL num(4)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Codigo retorno
+DataItem NA000I-EZEMNO smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// codigo de sqlcode csp
+DataItem NA000I-EZESQCOD num(4)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo de erro csp ezesqrrm
+DataItem NA000I-EZESQRRM char(70)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-IC-ATUAL-NACIONAL char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-IC-PESSOA char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// tipo de avaliacao
+DataItem NA000I-IC-TP-AVALIACAO num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-ID-DIRETOR char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome do mapa utilizado no call
+DataItem NA000I-ID-MAPA char(3)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-ID-USUARIO char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Codigo da ImpressoraCICS
+DataItem NA000I-IMP char(4)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome do mapa utilizado no call
+DataItem NA000I-MAPA77 char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR-EMP num(6)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR1 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR2 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR3 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR4 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR5 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MATR6 char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// matricula total com dv
+DataItem NA000I-MATRICULA num(7)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MM-ADMISSAO num(2)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MM-ATUAL num(2)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-MM-ATUALC char(2)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// mes referencia
+DataItem NA000I-MM-REF smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// calculo DV modulo 10
+DataItem NA000I-MOD10-77 char(20)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo restorno 0 ou 1
+DataItem NA000I-MOD10-DV-77 smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-DT-FM char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-DT-IN char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-DT-RESULT char(10)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-OPCAO num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-QT-RESULT int {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-NA12CA0-QUANT int {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// codigo do nivel de atualizacao
+DataItem NA000I-NIVEL-ATUAL char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo do nivel de seguranca
+DataItem NA000I-NIVEL-SEGURANCA char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nivel seg. utilizado no call
+DataItem NA000I-NIVEL-SEGURANCA-CALL char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Nome do empregado
+DataItem NA000I-NO-EMP char(40)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// CD. do no de rede
+DataItem NA000I-NO-IMP char(7)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-NO-IMP-REMOTA char(6)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-NO-PROGRAMA char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da aplicacao chamada
+DataItem NA000I-NOM-77MADA char(40)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da aplicacao que chamou
+DataItem NA000I-NOM-77MOU char(40)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da aplicacao chamada
+DataItem NA000I-NOM-CHAMADA char(40)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome da aplicacao que chamou
+DataItem NA000I-NOM-CHAMOU char(40)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Nome do sistema
+DataItem NA000I-NOM-SISTEMA char(40)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Matricula sem DV
+DataItem NA000I-NR-MATR-EMP num(6)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-NR-MATR-EMPREGADO num(6)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Numero conta corrente
+DataItem NA000I-NU-CONTA-CC int {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// SOMA NUMERO grp CPF SIARA
+DataItem NA000I-NU-GRUPO decimal(18)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// número produto
+DataItem NA000I-NU-PRODUTO smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Campo utilizado SIARA
+DataItem NA000I-NU-SEQ-AVAL smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Sequencial soma do grp
+DataItem NA000I-NU-SEQ-GRUPO smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// Sequencial parte do grp
+DataItem NA000I-NU-SEQ-PART-GRP smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// numero do sistema
+DataItem NA000I-NU-SISTEMA smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-NU-SITUACAO smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// parametro a ser navegado
+DataItem NA000I-PARAMETRO char(68)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Parametro 1
+DataItem NA000I-PARM1 char(14)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Parametro 2
+DataItem NA000I-PARM2 char(14)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo do perfil
+DataItem NA000I-PERFIL char(3)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// perfil utilizado no call
+DataItem NA000I-PERFIL-CALL char(3)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// area cics p/ call createx
+DataItem NA000I-PRID char(4)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// indica primeiro menu
+DataItem NA000I-PRIMEIRO-MENU char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// nome do processo executado
+DataItem NA000I-PROCESSO char(18)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-QT-DIA-AB-PECUN num(2)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-QT-DIA-ADQR-FR num(2)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-QT-DIA-SD-ANO-APIP num(3)  {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+DataItem NA000I-RESTO char(1)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-RETORNO-FE21CA0 char(342)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SENHA-CALCULADA char(50)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SENHA-INFORMADA char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SEP1 char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SEP2 char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SEPATU1 char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SEPATU2 char(1)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// Codigo do sistema c/3 posicoes
+DataItem NA000I-SISTEMA char(3)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SISTEMA77 char(3)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-SUREG smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// tamanho campo
+DataItem NA000I-TAM-77 smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// TBNAME
+DataItem NA000I-TBNAME char(18)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-TERMINAL char(8)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// trans cics utilizado no call
+DataItem NA000I-TRANS-CICS-CALL char(4)  {
+  align = left, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-UNID smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo do usuario
+DataItem NA000I-USUARIO char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// codigo do usuario
+DataItem NA000I-USUARIO77 char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+DataItem NA000I-VAR-AUXILIAR smallint {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// indica primeira vez
+DataItem NA000I-VEZ num(1)  {
+  currency = no, numericSeparator = no, sign = none, align = right, 
+  fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// NO_UF
+DataItem NO_UF char(20)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// NU_CA_EN_LOT_FISIC
+DataItem NU_CA_EN_LOT_FISIC smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// NU_UNID_LOT_FISICA
+DataItem NU_UNID_LOT_FISICA smallint {
+  currency = no, numericSeparator = no, sign = leading, align = right, 
+  fillCharacter = " ", inputRequired = no
+}
+end
+
+// RELNAME
+DataItem RELNAME char(8)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// SI_SISTEMA
+DataItem SI_SISTEMA char(5)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// SI_UF
+DataItem SI_UF char(2)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+// TBNAME
+DataItem TBNAME char(30)  {
+  align = none, fillCharacter = nullFill, inputRequired = no
+}
+end
+
+//*** RECORD=NA000W01 ****
+//    Registro de trabalho que sera passado pelo navegador para
+// a aplicacao "chamada".
+// Para acrescentar novos campos utilizar os espaço em branco
+// disponiveis
+// ************************
+Record NA000W01 type basicRecord
+  3 * char(551) ; // Nao modificar o tamanho
+    4 NA000I-MATRICULA num(7)  ; 
+      5 NA000I-NR-MATR-EMP num(6)  ; 
+      5 NA000I-DV-MATR-EMP num(1)  ; 
+    4 NA000I-NO-EMP char(40)  ; 
+    4 NA000I-VEZ num(1)  ; 
+    4 NA000I-ERRO num(1)  ; 
+    4 NA000I-PRIMEIRO-MENU char(8)  ; 
+    4 NA000I-PARAMETRO char(68)  ; 
+    4 NA000I-DESTINO char(6)  ; 
+    4 NA000I-USUARIO char(8)  ; 
+      5 NA000I-ID-USUARIO char(1)  ; 
+      5 NA000I-MATR-EMP num(6)  ; 
+        6 NA000I-MATR1 char(1)  ; 
+        6 NA000I-MATR2 char(1)  ; 
+        6 NA000I-MATR3 char(1)  ; 
+        6 NA000I-MATR4 char(1)  ; 
+        6 NA000I-MATR5 char(1)  ; 
+        6 NA000I-MATR6 char(1)  ; 
+      5 NA000I-RESTO char(1)  ; 
+    4 NA000I-SISTEMA char(3)  ; 
+    4 NA000I-NOM-SISTEMA char(40)  ; 
+    4 NA000I-PERFIL char(3)  ; 
+    4 NA000I-APL-CHAMOU char(8)  ; 
+    4 NA000I-NOM-CHAMOU char(40)  ; 
+    4 NA000I-APELIDO-CHAMOU char(6)  ; 
+    4 NA000I-APL-CHAMADA char(8)  ; 
+    4 NA000I-NOM-CHAMADA char(40)  ; 
+    4 NA000I-APELIDO-CHAMADA char(6)  ; 
+    4 NA000I-NIVEL-SEGURANCA char(1)  ; 
+    4 NA000I-NIVEL-ATUAL char(1)  ; 
+    4 GS999I-MATRICULA num(6)  ; 
+    4 GS999I-MATRICULA-WRK num(6)  ; 
+      5 GS999I-MAT-2 num(1)  ; 
+      5 GS999I-MAT-3 num(1)  ; 
+      5 GS999I-MAT-4 num(1)  ; 
+      5 GS999I-MAT-5 num(1)  ; 
+      5 GS999I-MAT-6 num(1)  ; 
+      5 GS999I-MAT-7 num(1)  ; 
+    4 GS999I-DIG-MATRICULA num(1)  ; 
+    4 GS999I-DIG-MAT-WRK num(5)  ; 
+    4 * char(1) ; 
+    4 SI_SISTEMA char(5)  ; 
+    4 NA000I-CEADM smallint  ; 
+    4 NA000I-SUREG smallint  ; 
+    4 NA000I-UNID smallint  ; 
+    4 NA000I-DT-ADMISSAO char(10)  ; 
+      5 NA000I-DD-ADMISSAO num(2)  ; 
+      5 NA000I-SEP1 char(1)  ; 
+      5 NA000I-MM-ADMISSAO num(2)  ; 
+      5 NA000I-SEP2 char(1)  ; 
+      5 NA000I-AA-ADMISSAO num(4)  ; 
+    4 NA000I-ID-DIRETOR char(1)  ; 
+    4 ID_CEF char(1)  ; 
+    4 * char(1) ; 
+    4 CD_SUREG_LOT smallint  ; 
+    4 CD_CEADM_AUT smallint  ; 
+    4 CD_SUREG_AUT smallint  ; 
+    4 CD_UNID_AUT smallint  ; 
+    4 CD_UNIDADE smallint  ; 
+    4 CD_IMPRESSORA char(6)  ; 
+    4 NA000I-CD-MAPA char(8)  ; 
+      5 NA000I-CD-APPL char(5)  ; 
+      5 NA000I-ID-MAPA char(3)  ; 
+    4 ID_USU_UNID char(1)  ; 
+    4 ID_VISAO_NACIONAL char(1)  ; 
+    4 * char(1) ; 
+    4 NA000I-CD-UNID-TRAB smallint  ; 
+    4 NA000I-CD-SUREG-LOT smallint  ; 
+    4 NA000I-CD-UNID-LOT smallint  ; 
+    4 NA000I-CD-VINCULACAO-FUN smallint  ; 
+    4 NA000I-DT-ATUAL char(10)  ; 
+      5 NA000I-DD-ATUAL num(2)  ; 
+        6 NA000I-DD-ATUALC char(2)  ; 
+      5 NA000I-SEPATU1 char(1)  ; 
+      5 NA000I-MM-ATUAL num(2)  ; 
+        6 NA000I-MM-ATUALC char(2)  ; 
+      5 NA000I-SEPATU2 char(1)  ; 
+      5 NA000I-AA-ATUAL num(4)  ; 
+        6 NA000I-AA-ATUALC char(4)  ; 
+          7 NA000I-AA-ATUAL1 num(2) ; 
+          7 NA000I-AA-ATUAL2 num(2) ; 
+    4 NA000I-TERMINAL char(8)  ; 
+      5 NA000I-CONTROLADORA char(4)  ; 
+      5 NA000I-CD-TERMINAL char(4)  ; 
+    4 CD_TRANS_CICS char(4)  ; 
+    4 NA000I-NO-IMP-REMOTA char(6)  ; 
+      5 CD_NO_REMOT char(2)  ; 
+      5 CD_IMPR char(4)  ; 
+    4 NA000I-EZEMNO smallint  ; 
+    4 NA000I-CONTA-CORRENTE char(10)  ; 
+      5 NA000I-CO-UNID smallint  ; 
+      5 NA000I-CD-OPERACAO smallint  ; 
+      5 NA000I-NU-CONTA-CC int  ; 
+      5 NA000I-DV-CONTA smallint  ; 
+    4 NA000I-PARM1 char(14)  ; 
+    4 NA000I-PARM2 char(14)  ; 
+    4 NA000I-CHECK-LIST char(2)  ; 
+    4 NA000I-IC-PESSOA char(1)  ; 
+    4 NA000I-NU-SEQ-AVAL smallint  ; 
+    4 NA000I-DATA char(10)  ; 
+    4 NA000I-IC-TP-AVALIACAO num(1)  ; 
+    4 NA000I-NU-GRUPO decimal(18)  ; 
+    4 NA000I-NU-SEQ-GRUPO smallint  ; 
+    4 NA000I-NU-SEQ-PART-GRP smallint  ; 
+    4 NA000I-NU-SISTEMA smallint  ; 
+    4 NA000I-AA-REF smallint  ; 
+    4 NA000I-MM-REF smallint  ; 
+    4 NA000I-NU-PRODUTO smallint  ; 
+    4 NA000I-NU-SITUACAO smallint  ; 
+    4 NA000I-IC-ATUAL-NACIONAL char(1)  ; 
+    4 NU_UNID_LOT_FISICA smallint  ; 
+    4 NU_CA_EN_LOT_FISIC smallint  ; 
+    4 NA000I-VAR-AUXILIAR smallint  ; 
+    4 IC_PESSOA_EXPOSTA char(1)  ; 
+    4 * char(62) ; // LIVRE P/ USO
+end // end NA000W01
+
+Record NA000W01_Level77Items type basicRecord
+  3 NA000I-EZESQRRM char(70) ;
+  3 NA000I-APLICACAO char(8) ;
+  3 NA000I-EZESQCOD num(4) ;
+  3 NA000I-PROCESSO char(18) ;
+  3 NA000I-ERRO-CALL num(4) ;
+  3 NA000I-DESTINO-CALL char(6) ;
+  3 NA000I-TRANS-CICS-CALL char(4) ;
+  3 NA000I-PERFIL-CALL char(3) ;
+  3 NA000I-NIVEL-SEGURANCA-CALL char(1) ;
+  3 NA000I-APL-CALL char(8) ;
+  3 NA000I-APL-77MOU char(8) ;
+  3 NA000I-NOM-77MOU char(40) ;
+  3 NA000I-APELIDO-77MOU char(6) ;
+  3 NA000I-APL-77MADA char(8) ;
+  3 NA000I-NOM-77MADA char(40) ;
+  3 NA000I-APELIDO-77MADA char(6) ;
+  3 NA000I-SISTEMA77 char(3) ;
+  3 NA000I-MAPA77 char(8) ;
+  3 NA000I-NO-IMP char(7) ;
+  3 NA000I-IMP char(4) ;
+  3 NA000I-PRID char(4) ;
+  3 NA000I-USUARIO77 char(8) ;
+  3 NA000I-DT-INICIO char(10) ;
+  3 NA000I-DT-INICIO-ANT char(10) ;
+  3 NA000I-DT-IN-PEAQ char(10) ;
+  3 NA000I-DT-FM-PEAQ char(10) ;
+  3 NA000I-DT-IN-FR char(10) ;
+  3 NA000I-CD-OCOR num(5) ;
+  3 NA000I-QT-DIA-SD-ANO-APIP num(3) ;
+  3 NA000I-QT-DIA-ADQR-FR num(2) ;
+  3 NA000I-QT-DIA-AB-PECUN num(2) ;
+  3 NA000I-RETORNO-FE21CA0 char(342) ;
+  3 NA000I-NA12CA0-OPCAO num(1) ;
+  3 NA000I-NA12CA0-DT-IN char(10) ;
+  3 NA000I-NA12CA0-DT-FM char(10) ;
+  3 NA000I-NA12CA0-QUANT int ;
+  3 NA000I-NA12CA0-DT-RESULT char(10) ;
+  3 NA000I-NA12CA0-QT-RESULT int ;
+  3 NA000I-SENHA-INFORMADA char(8) ;
+  3 NA000I-SENHA-CALCULADA char(50) ;
+  3 NA000I-NR-MATR-EMPREGADO num(6) ;
+  3 NA000I-COLNAME char(18) ;
+  3 NA000I-TBNAME char(18) ;
+  3 NA000I-NO-PROGRAMA char(8) ;
+  3 NA000I-MOD10-77 char(20) ;
+  3 NA000I-TAM-77 smallint ;
+  3 NA000I-MOD10-DV-77 smallint ;
+end // end NA000W01_Level77Items
+
+//*** RECORD=NAEXTW01 ****
+//    Registro de trabalho que sera passado pelo navegador para
+// a aplicacao "chamada".
+// ************************
+Record NAEXTW01 type basicRecord
+  5 * char(155) ; 
+    10 NAEXTI-LL smallint ; 
+    10 NAEXTI-ZZ smallint ; 
+    10 NAEXTI-TRAN-CODE char(8) ; 
+    10 * char(2) ; 
+    10 NAEXTI-VAGO char(3) ; 
+    10 NAEXTI-PARAMETRO char(138) ; // parametro a ser navegado
+end // end NAEXTW01
+
+Record SRHXVW81_UNID_FED type sqlRecord  {
+  tableNames = [["db2adm.srhpvw81_unid_fed", "T1"]]
+  }
+  3 SI_UF char(2) { column = "SI_UF", isSQLNullable = yes} ;
+  3 NO_UF char(20) { column = "NO_UF", isSQLNullable = yes} ;
+end // end SRHXVW81_UNID_FED
+
+//*** RECORD=SYSIBM_FOREIGNKEYS ****
+// tabela ibm com as foreign keys
+// **********************************
+Record SYSIBM_FOREIGNKEYS type sqlRecord  {
+  tableNames = [["sysibm.sysforeignkeys", "T1"]]
+  }
+  3 CREATOR char(8) { column = "CREATOR", isSQLNullable = yes} ;
+  3 TBNAME char(30) { column = "TBNAME", isSQLNullable = yes, sqlVariableLen = yes} ;
+  3 RELNAME char(8) { column = "RELNAME", isSQLNullable = yes} ;
+  3 COLNAME char(30) { column = "COLNAME", isSQLNullable = yes, sqlVariableLen = yes} ;
+  3 COLNO  smallint { column = "COLNO", isSQLNullable = yes} ;
+  3 COLSEQ  smallint { column = "COLSEQ", isSQLNullable = yes} ;
+  3 IBMREQD char(1) { column = "IBMREQD", isSQLNullable = yes} ;
+end // end SYSIBM_FOREIGNKEYS
+
+Record T170UW01 type basicRecord
+  10 T170UI-IND smallint ; // indexador
+  10 T170UI-IND2 smallint ; // indexador
+  10 T170UI-TELA smallint ; // num da pagina atual
+  10 T170UI-ATUALIZOU char(3) ; // Indicador de atualizacao
+  10 T170UI-ACAOTOTAL char(13) ; // todas as acoes (A,E e i)
+    15 T170UI-ACAO char(1) [13] ; // Acao
+  10 T170UI-SI-UF char(2) [13] ; // Codigo da carreira
+  10 T170UI-NO-UF char(20) [13] ; // Nome da carreira
+  10 T170UI-DT-ATUAL char(10) ; 
+    15 T170UI-DD-ATUAL num(2) ; 
+    15 T170UI-BARRA1 char(1) ; 
+    15 T170UI-MM-ATUAL num(2) ; 
+    15 T170UI-BARRA2 char(1) ; 
+    15 T170UI-AA-ATUAL num(4) ; 
+end // end T170UW01
+
+// ve qual tabela db2
+Function NA000P-INQ-FK()
+  try
+    get SYSIBM_FOREIGNKEYS
+      with #sql{
+        select TBNAME, COLNAME
+        from sysibm.sysforeignkeys T1
+        WHERE RELNAME = :RELNAME
+         --** INSIRA CLAUSULA ORDER BY AQUI **
+      }
+      into TBNAME, COLNAME ;
+  end
+end // end NA000P-INQ-FK
+
+// trata sqlcodes do add
+Function NA000S-ADD()
+  converseLib.validationFailed(0);
+  if (sysVar.sqlData.sqlcode != 0)
+    NA000I-EZESQCOD = sysVar.sqlData.sqlcode;
+    NA000I-EZESQRRM = sysVar.sqlData.sqlerrmc;
+    NA000I-APLICACAO = NA000W01.NA000I-APL-CHAMADA;
+    if (sysVar.sqlData.sqlcode == -803)
+    /* CALL EZEROLLB;*/
+      converseLib.validationFailed(25); /* inclusao de existente*/
+    else
+      if (sysVar.sqlData.sqlcode == -530) /* integridade referenciada*/
+        VGVar.handleSysLibraryErrors = 0;
+        sysLib.rollback();
+        SYSIBM_FOREIGNKEYS.RELNAME = NA000I-EZESQRRM;
+        NA000P-INQ-FK();
+        /**/
+  /* MOVE NA000I-EZESQRRM TO SYSFOREIGNKEYS.RELNAME;*/
+  /* NA000P-INQ-VW7FK();*/
+        if (sysVar.sqlData.sqlcode == 0)
+          NA000I-COLNAME = SYSIBM_FOREIGNKEYS.COLNAME;
+          NA000I-TBNAME = SYSIBM_FOREIGNKEYS.TBNAME;
+          /**/
+  /* MOVE SYSFOREIGNKEYS.COLNAME NA000I-COLNAME;*/
+  /* MOVE SYSFOREIGNKEYS.TBNAME NA000I-TBNAME;*/
+          call "NAERSA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM, NA000I-COLNAME, NA000I-TBNAME);
+          converseLib.validationFailed(149); /* erro foreing key*/
+        else
+          converseLib.validationFailed(1); /* problema ...*/
+        end
+      else
+        VGVar.handleSysLibraryErrors = 0;
+        sysLib.rollback();
+        call "NAERRA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM);
+        NA000W01.NA000I-PARAMETRO = " ";
+        sysVar.transferName = NA000I-APLICACAO;
+        transfer to program sysVar.transferName passing NA000W01;
+      end
+    end
+  end
+end // end NA000S-ADD
+
+// sqlcod ne 0,100(INQ,SCN,UPD)
+Function NA000S-INQ-SCN-UPD()
+  converseLib.validationFailed(0);
+  if (sysVar.sqlData.sqlcode != 0)
+    if (sysVar.sqlData.sqlcode != 100)
+      NA000I-EZESQCOD = sysVar.sqlData.sqlcode;
+      NA000I-EZESQRRM = sysVar.sqlData.sqlerrmc;
+      NA000I-APLICACAO = NA000W01.NA000I-APL-CHAMADA;
+      VGVar.handleSysLibraryErrors = 0;
+      sysLib.rollback();
+      call "NAERRA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM);
+      NA000W01.NA000I-PARAMETRO = " ";
+      sysVar.transferName = NA000I-APLICACAO;
+      transfer to program sysVar.transferName passing NA000W01;
+    end
+  end
+end // end NA000S-INQ-SCN-UPD
+
+// monta variaveis p/o navegador
+Function NA000S-MONTA-VARI()
+  NA000W01.NA000I-APL-CHAMOU = NA000I-APL-77MOU;
+  NA000W01.NA000I-NOM-CHAMOU = NA000I-NOM-77MOU;
+  NA000W01.NA000I-APELIDO-CHAMOU = NA000I-APELIDO-77MOU;
+  NA000W01.NA000I-APL-CHAMADA = NA000I-APL-77MADA;
+  NA000W01.NA000I-NOM-CHAMADA = NA000I-NOM-77MADA;
+  NA000W01.NA000I-APELIDO-CHAMADA = NA000I-APELIDO-77MADA;
+end // end NA000S-MONTA-VARI
+
+// sqlcode ne 0 (SEQ,SUP)
+Function NA000S-SEQ-SUP()
+  converseLib.validationFailed(0);
+  if (sysVar.sqlData.sqlcode != 0)
+    NA000I-EZESQCOD = sysVar.sqlData.sqlcode;
+    NA000I-EZESQRRM = sysVar.sqlData.sqlerrmc;
+    NA000I-APLICACAO = NA000W01.NA000I-APL-CHAMADA;
+    VGVar.handleSysLibraryErrors = 0;
+    sysLib.rollback();
+    call "NAERRA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM);
+    NA000W01.NA000I-PARAMETRO = " ";
+    sysVar.transferName = NA000I-APLICACAO;
+    transfer to program sysVar.transferName passing NA000W01;
+  end
+end // end NA000S-SEQ-SUP
+
+// sqlcode ne 0 (SQX,DEL,REP)
+Function NA000S-SQX-DEL-REP()
+  converseLib.validationFailed(0);
+  if (sysVar.sqlData.sqlcode != 0)
+    NA000I-EZESQCOD = sysVar.sqlData.sqlcode;
+    NA000I-EZESQRRM = sysVar.sqlData.sqlerrmc;
+    NA000I-APLICACAO = NA000W01.NA000I-APL-CHAMADA;
+    if (sysVar.sqlData.sqlcode == 100)
+      converseLib.validationFailed(34); /* exclusao de inexistente*/
+    else
+      if (sysVar.sqlData.sqlcode == -530 /* integridade referenciada*/
+       or sysVar.sqlData.sqlcode == -532) /* delete restrict*/
+        VGVar.handleSysLibraryErrors = 0;
+        sysLib.rollback();
+        SYSIBM_FOREIGNKEYS.RELNAME = NA000I-EZESQRRM;
+        NA000P-INQ-FK();
+        /**/
+  /* MOVE NA000I-EZESQRRM TO SYSFOREIGNKEYS.RELNAME;*/
+  /* NA000P-INQ-VW7FK();*/
+        if (sysVar.sqlData.sqlcode == 0)
+          NA000I-COLNAME = SYSIBM_FOREIGNKEYS.COLNAME;
+          NA000I-TBNAME = SYSIBM_FOREIGNKEYS.TBNAME;
+          /**/
+  /* MOVE SYSFOREIGNKEYS.COLNAME NA000I-COLNAME;*/
+  /* MOVE SYSFOREIGNKEYS.TBNAME NA000I-TBNAME;*/
+          call "NAERSA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM, NA000I-COLNAME, NA000I-TBNAME);
+          converseLib.validationFailed(149); /* erro foreing key*/
+        else
+          converseLib.validationFailed(1); /* problema ...*/
+        end
+      else
+        VGVar.handleSysLibraryErrors = 0;
+        sysLib.rollback();
+        call "NAERRA0" (NA000I-APLICACAO, NA000I-PROCESSO, NA000I-EZESQCOD, NA000I-EZESQRRM);
+        NA000W01.NA000I-PARAMETRO = " ";
+        sysVar.transferName = NA000I-APLICACAO;
+        transfer to program sysVar.transferName passing NA000W01;
+      end
+    end
+  end
+end // end NA000S-SQX-DEL-REP
+
+// call na08ca0
+Function NAV00S-NAV08A0()
+  NA000I-DESTINO-CALL = " ";
+  move NA000I-PERFIL to NA000I-PERFIL-CALL withV60Compat;
+  move NA000I-NIVEL-SEGURANCA to NA000I-NIVEL-SEGURANCA-CALL withV60Compat;
+  NA000I-SISTEMA77 = NA000W01.NA000I-SISTEMA;
+  call "NAV08A0" (NA000I-DESTINO-CALL, NA000I-PERFIL-CALL, NA000I-NIVEL-SEGURANCA-CALL, NA000I-SISTEMA77) {isNoRefresh = yes};
+end // end NAV00S-NAV08A0
+
+// call na09ca0 Transfere naveg.
+Function NAV00S-NAV09A0()
+  VGVar.handleSysLibraryErrors = 0;
+  sysLib.commit();
+  NA000I-SISTEMA77 = NA000W01.NA000I-SISTEMA;
+  call "NAV09A0" (NA000I-APL-77MADA, NA000I-NOM-77MADA, NA000I-APELIDO-77MADA, NA000I-APL-77MOU, NA000I-NOM-77MOU, NA000I-APELIDO-77MOU, NA000I-SISTEMA77) {isNoRefresh = yes};
+  NA000S-MONTA-VARI();
+  transfer to program "NAV0MA0" passing NA000W01; /* Transfere o controle para o navegador*/
+end // end NAV00S-NAV09A0
+
+// call na11ca0
+Function NAV00S-NAV11A0()
+  NA000I-NIVEL-SEGURANCA-CALL = NA000W01.NA000I-NIVEL-SEGURANCA;
+  NA000I-PERFIL-CALL = NA000W01.NA000I-PERFIL;
+  NA000I-ERRO-CALL = 0;
+  NA000I-TRANS-CICS-CALL = " ";
+  NA000I-APL-CALL = " ";
+  NA000I-SISTEMA77 = NA000W01.NA000I-SISTEMA;
+  call "NAV11A0" (NA000I-NIVEL-SEGURANCA-CALL, NA000I-PERFIL-CALL, NA000I-ERRO-CALL, NA000I-DESTINO-CALL, NA000I-TRANS-CICS-CALL, NA000I-APL-CALL, NA000I-SISTEMA77) {isNoRefresh = yes};
+  if (NA000I-ERRO-CALL == 0)
+    move NA000I-APL-CALL to NA000I-APL-77MADA withV60Compat;
+    NA000W01.NA000I-APL-CHAMADA = NA000I-APL-CALL;
+    VGVar.handleSysLibraryErrors = 0;
+    sysLib.commit();
+    if (NA000W01.NA000I-SISTEMA == "APX") /* Verifica se o sistema é APX*/
+  /* /* Criado para uso exclusivo do sistema APX para utilização com aplicativos IDMS*/
+  /* SET NAEXTW03 EMPTY;          /* Limpa work*/
+  /* MOVE NA000W01.NA000I-SISTEMA TO SRHXVW94_APLICACAO.CD_SISTEMA;*/
+  /* MOVE NA000W01.NA000I-DESTINO-CALL TO SRHXVW94_APLICACAO.CD_APELIDO;*/
+  /* NAV00P-INQ-94-APX();*/
+  /* IF SRHXVW94_APLICACAO NOT NRF;*/
+  /* MOVE 'ADSX' TO NAEXTW03.NAEXTI-TRANCODE; /* Informar trancode chamada IDMS*/
+  /* MOVE SRHXVW94_APLICACAO.CD_APLICACAO TO NAEXTW03.NAEXTI-APLICACAO; /* Informa aplicação chamada*/
+  /* XFER EZEAPP NAEXTW03 (NONCSP; /* aplicacoes externas (nao CSP)*/
+  /* END;*/
+  /**/
+      NAEXTI-TRAN-CODE = "APID0101";
+      sysVar.transferName = "ADSI";
+      NAEXTI-VAGO = ", ,";
+      NAEXTI-LL = 155;
+      transfer to transaction sysVar.transferName passing NAEXTW01 {isExternal = yes}; /* aplicacoes externas (nao CSP)*/
+  /**/
+    else
+      if (NA000I-APL-CALL == "NAEXTA0")
+        NA000W01.CD_TRANS_CICS = NA000I-TRANS-CICS-CALL;
+        move NA000I-DESTINO-CALL to NA000I-DESTINO withV60Compat;
+        set NAEXTW01 empty;
+        NAEXTW01.NAEXTI-PARAMETRO = NA000W01.NA000I-PARAMETRO;
+        NAEXTI-TRAN-CODE = NA000W01.CD_TRANS_CICS;
+        sysVar.transferName = NA000W01.CD_TRANS_CICS;
+        NAEXTI-VAGO = ", ,";
+        NAEXTI-LL = 155;
+        transfer to transaction sysVar.transferName passing NAEXTW01 {isExternal = yes}; /* aplicacoes externas (nao CSP)*/
+      else
+        if (NA000I-TRANS-CICS-CALL == "SH02")
+          transfer to program "NAV0MA0" passing NA000W01; /* transfere para navegador*/
+        else
+          if (NA000I-TRANS-CICS-CALL == "XSPS")
+            sysVar.transferName = NA000I-APL-CALL;
+            transfer to program sysVar.transferName passing NA000W01; /* transferencia via DXFR*/
+          else
+            sysVar.transferName = NA000I-TRANS-CICS-CALL;
+            transfer to transaction sysVar.transferName passing NA000W01; /* transferencia via XFER*/
+          end
+        end
+      end
+    end
+  end
+end // end NAV00S-NAV11A0
+
+// call nav10a0 - SRH
+Function SRH00S-NAV10A0()
+  if (NA000W01.NA000I-USUARIO == " ")
+    transfer to transaction "LOGO";
+  end
+  if (NA000W01.NA000I-SISTEMA != "SRH")
+    transfer to transaction "LOGO";
+  end
+  VGVar.handleSysLibraryErrors = 0;
+  sysLib.commit();
+  NA000I-SISTEMA77 = NA000W01.NA000I-SISTEMA;
+  call "NAV10A0" (NA000I-APL-77MADA, NA000I-NOM-77MADA, NA000I-APELIDO-77MADA, NA000I-APL-77MOU, NA000I-NOM-77MOU, NA000I-APELIDO-77MOU, NA000I-TRANS-CICS-CALL, NA000I-SISTEMA77) {isNoRefresh = yes};
+  NA000S-MONTA-VARI();
+  VGVar.handleSysLibraryErrors = 0;
+  sysLib.commit();
+end // end SRH00S-NAV10A0
+
+// Inclui linha Unidade Federacao
+Function T170UP-ADD-81()
+  NA000I-PROCESSO = "T170UP-ADD-81";
+  try
+    add SRHXVW81_UNID_FED ;
+    onException NA000S-ADD() ;
+  end
+end // end T170UP-ADD-81
+
+// Mostra Unidade Federacao
+Function T170UP-CON-MAPA()
+  if (T170UI-ATUALIZOU == "SIM"
+   and converseVar.validationMsgNum == 0)
+    T170UP-EXE-MONTELA();
+    T170UI-ATUALIZOU = "NAO";
+    converseLib.validationFailed(41);
+  end
+  T170UM01.T170UI-SISTEMA = NA000W01.SI_SISTEMA;
+  T170UM01.T170UI-APELIDO-CHAMOU = NA000W01.NA000I-APELIDO-CHAMOU;
+  T170UM01.T170UI-NOM-CHAMOU = NA000W01.NA000I-NOM-CHAMOU;
+  T170UM01.T170UI-APELIDO-CHAMADA = NA000W01.NA000I-APELIDO-CHAMADA;
+  T170UM01.T170UI-NOM-CHAMADA = NA000W01.NA000I-NOM-CHAMADA;
+  T170UM01.T170UI-USUARIO = NA000W01.NA000I-USUARIO;
+  NA000W01_Level77Items.NA000I-MAPA77 = "T170UM01";
+  T170UM01.T170UI-DATA = T170UW01.T170UI-DT-ATUAL;
+  converse T170UM01 ;
+end // end T170UP-CON-MAPA
+
+// Atualiza Unidade Federacao
+Function T170UP-EXE-ATUAL()
+  T170UP-EXE-CRITICA();
+  if (converseVar.validationMsgNum != 0)
+    return;
+  end
+  T170UI-IND = 0;
+  while (T170UI-IND < 13)
+    T170UI-IND = T170UI-IND + 1;
+    if (T170UM01.T170UI-ACAO[T170UI-IND] != " ")
+      SRHXVW81_UNID_FED.SI_UF = T170UM01.T170UI-SI-UF[T170UI-IND];
+      if (T170UM01.T170UI-ACAO[T170UI-IND] == "E") /* exclusao*/
+        T170UP-SQX-DELECAO(); /* deleta linha*/
+        if (converseVar.validationMsgNum != 0)
+          VGVar.handleSysLibraryErrors = 0;
+          sysLib.rollback();
+          set T170UM01.T170UI-ACAO[T170UI-IND] bold;
+          return;
+        end
+      else
+        SRHXVW81_UNID_FED.NO_UF = T170UM01.T170UI-NO-UF[T170UI-IND];
+        if (T170UM01.T170UI-ACAO[T170UI-IND] == "A") /* alteracao*/
+          T170UP-SQX-ALTERA(); /* altera a linha*/
+          if (converseVar.validationMsgNum != 0)
+            VGVar.handleSysLibraryErrors = 0;
+            sysLib.rollback();
+            set T170UM01.T170UI-ACAO[T170UI-IND] bold;
+            return;
+          end
+        else
+          /* Inclusao*/
+          T170UP-ADD-81(); /* inclui linha*/
+          if (converseVar.validationMsgNum != 0)
+            VGVar.handleSysLibraryErrors = 0;
+            sysLib.rollback();
+            set T170UM01.T170UI-ACAO[T170UI-IND] bold;
+            return;
+          end
+        end
+      end
+      T170UI-ATUALIZOU = "SIM";
+      VGVar.handleSysLibraryErrors = 0;
+      sysLib.commit();
+      T170UM01.T170UI-ACAO[T170UI-IND] = " ";
+      T170UW01.T170UI-ACAO[T170UI-IND] = " ";
+    end
+  end
+  T170UI-ATUALIZOU = "NAO";
+  converseLib.validationFailed(41); /* atualizacao concluida*/
+  T170UP-EXE-MONTELA(); /* monta nova tela*/
+end // end T170UP-EXE-ATUAL
+
+// Critica dos dados
+Function T170UP-EXE-CRITICA()
+  T170UI-IND = 0;
+  while (T170UI-IND < 13)
+    T170UI-IND = T170UI-IND + 1;
+    if (T170UM01.T170UI-ACAO[T170UI-IND] == "A"
+     or T170UM01.T170UI-ACAO[T170UI-IND] == "I")
+      if (T170UM01.T170UI-SI-UF[T170UI-IND] == " ")
+        converseLib.validationFailed(13); /* Campo obrigatorio*/
+        set T170UM01.T170UI-SI-UF[T170UI-IND] cursor;
+        return;
+      end
+      if (T170UM01.T170UI-NO-UF[T170UI-IND] == " ")
+        converseLib.validationFailed(13); /* Campo obrigatorio*/
+        set T170UM01.T170UI-NO-UF[T170UI-IND] cursor;
+        return;
+      end
+    end
+  end
+  ;
+  /* Posiciona cursor*/
+  if (converseVar.validationMsgNum == 0)
+    set T170UM01.T170UI-ACAO[1] bold, cursor;
+    T170UI-IND = 0;
+    while (T170UI-IND < 13)
+      T170UI-IND = T170UI-IND + 1;
+      if (T170UM01.T170UI-ACAO[T170UI-IND] is modified
+       and T170UM01.T170UI-ACAO[T170UI-IND] != " ")
+        if (T170UM01.T170UI-ACAO[T170UI-IND] == "E")
+          set T170UM01.T170UI-ACAO[T170UI-IND] bold, cursor;
+        else
+          if (T170UM01.T170UI-ACAO[T170UI-IND] == "I")
+            set T170UM01.T170UI-SI-UF[T170UI-IND] cursor;
+          else
+            set T170UM01.T170UI-NO-UF[T170UI-IND] cursor;
+          end
+        end
+        T170UI-IND = 13;
+      end
+    end
+  end
+end // end T170UP-EXE-CRITICA
+
+// Trata destino
+Function T170UP-EXE-DESTINO()
+  if (NA000I-DESTINO-CALL == "?")
+    NAV00S-NAV08A0();
+  end
+  ;
+  if (NA000I-DESTINO-CALL != "?")
+    NAV00S-NAV11A0();
+    if (NA000I-ERRO-CALL == 9999)
+      converseLib.validationFailed();
+    else
+      converseLib.validationFailed(NA000I-ERRO-CALL);
+    end
+  end
+  NA000W01.NA000I-PARAMETRO = " ";
+  if (T170UM01.T170UI-DESTINO != " ")
+    set T170UM01.T170UI-DESTINO cursor;
+  end
+end // end T170UP-EXE-DESTINO
+
+// Procedimentos Iniciais
+Function T170UP-EXE-INICIO()
+  VGVar.handleHardIOErrors = 1;
+  set T170UM01 empty;
+  set T170UW01 empty;
+  T170UI-ATUALIZOU = "NAO";
+  T170UW01.T170UI-DT-ATUAL = NA000W01.NA000I-DT-ATUAL;
+  T170UW01.T170UI-BARRA1 = "/";
+  T170UW01.T170UI-BARRA2 = "/";
+   /* = monta variaveis p/montar a tela =*/
+  NA000I-APL-77MADA = "T170UA0";
+  SRH00S-NAV10A0();
+  T170UM01.T170UI-PARAMETRO = NA000W01.NA000I-PARAMETRO;
+  NA000W01.NA000I-PARAMETRO = " ";
+end // end T170UP-EXE-INICIO
+
+// Monta tela - 13 quadros
+Function T170UP-EXE-MONTELA()
+  set T170UM01 initial;
+  move " " to T170UW01.T170UI-ACAO[1] for all;
+  if (T170UW01.T170UI-TELA == 0)
+    T170UW01.T170UI-TELA = 1;
+  end
+  T170UI-IND = T170UW01.T170UI-TELA * 13 - 12;
+  T170UM01.T170UI-PAGINA = T170UW01.T170UI-TELA;
+  T170UP-SEQ-81();
+  T170UP-SCN-81();
+  ;
+  T170UI-IND2 = 1;
+  /* Pula t170ui-ind linhas*/
+  while (T170UI-IND2 < T170UI-IND
+   and SRHXVW81_UNID_FED not noRecordFound)
+    T170UP-SCN-81();
+    T170UI-IND2 = T170UI-IND2 + 1;
+  end
+  ;
+  T170UI-IND2 = 0;
+  /* monta Tela 1*/
+  while (T170UI-IND2 < 13
+   and SRHXVW81_UNID_FED not noRecordFound)
+    T170UI-IND2 = T170UI-IND2 + 1;
+    T170UM01.T170UI-SI-UF[T170UI-IND2] = SRHXVW81_UNID_FED.SI_UF;
+    T170UM01.T170UI-NO-UF[T170UI-IND2] = SRHXVW81_UNID_FED.NO_UF;
+    T170UP-SCN-81();
+  end
+  ;
+  /* .............. Verifica se e ultima pagina*/
+  if (" " in T170UM01.T170UI-SI-UF)
+    converseLib.validationFailed(24);
+  end
+  ;
+  /* .............. Salva os dados da Tela*/
+  move T170UM01.T170UI-SI-UF to T170UW01.T170UI-SI-UF[1] for all;
+  move T170UM01.T170UI-NO-UF to T170UW01.T170UI-NO-UF[1] for all;
+end // end T170UP-EXE-MONTELA
+
+// CONTROLE GERAL DA APLICACAO
+Function T170UP-EXE-PRINC()
+  T170UP-EXE-INICIO(); /* procedimentos iniciais*/
+  while (1 == 1)
+    T170UP-EXE-MONTELA(); /* * MONTA TELA DE CODIGOS*/
+    while (NA000W01.NA000I-PARAMETRO == " ")
+      T170UP-CON-MAPA(); /* mostra tela*/
+      if (converseVar.eventKey is enter)
+        if ("A" in T170UM01.T170UI-ACAO
+         or "E" in T170UM01.T170UI-ACAO
+         or "I" in T170UM01.T170UI-ACAO)
+          T170UM01.T170UI-PARAMETRO = " ";
+          T170UM01.T170UI-DESTINO = " ";
+          T170UP-EXE-CRITICA();
+          if (converseVar.validationMsgNum == 0)
+            converseLib.validationFailed(31); /* f2 e f6*/
+          end
+        else
+          if (T170UM01.T170UI-DESTINO == " ")
+            if (T170UM01.T170UI-PARAMETRO != " ")
+              converseLib.validationFailed(13); /* campo obrigatorio*/
+              set T170UM01.T170UI-DESTINO cursor;
+            else
+              converseLib.validationFailed(254); /* digite uma acao ou tecle uma <pf> ou*/
+                                   /* informe parametro e/ou destino*/
+            end
+          else
+            if (T170UM01.T170UI-PARAMETRO != " ")
+              NA000W01.NA000I-PARAMETRO = T170UM01.T170UI-PARAMETRO;
+            end
+            NA000I-DESTINO-CALL = T170UM01.T170UI-DESTINO;
+            T170UP-EXE-DESTINO();
+          end
+        end
+      else
+        if (converseVar.eventKey is pf2) /* atualizacao*/
+          if ("A" in T170UM01.T170UI-ACAO
+           or "E" in T170UM01.T170UI-ACAO
+           or "I" in T170UM01.T170UI-ACAO)
+            T170UP-EXE-ATUAL(); /* atualiza*/
+          else
+            converseLib.validationFailed(159); /* nada a atualizar;*/
+          end
+        else
+          if (converseVar.eventKey is pf6) /* cancela atualizacao*/
+            T170UP-EXE-MONTELA(); /* * MONTA TELA DE CODIGOS*/
+          else
+            if (converseVar.eventKey is pf3)
+              if ("A" in T170UM01.T170UI-ACAO
+               or "E" in T170UM01.T170UI-ACAO
+               or "I" in T170UM01.T170UI-ACAO)
+                converseLib.validationFailed(31); /* aviso de atualizacao*/
+              else
+                NAV00S-NAV09A0(); /* retorna ao navegador*/
+              end
+            else
+              if (converseVar.eventKey is pf7) /* tela anterior*/
+                if ("A" in T170UM01.T170UI-ACAO
+                 or "E" in T170UM01.T170UI-ACAO
+                 or "I" in T170UM01.T170UI-ACAO)
+                  converseLib.validationFailed(31); /* aviso  atualizar;*/
+                else
+                  T170UP-EXE-TELAANT();
+                end
+              else
+                if (converseVar.eventKey is pf8) /* tela posterior*/
+                  if ("A" in T170UM01.T170UI-ACAO
+                   or "E" in T170UM01.T170UI-ACAO
+                   or "I" in T170UM01.T170UI-ACAO)
+                    converseLib.validationFailed(31); /* aviso  atualizar;*/
+                  else
+                    T170UP-EXE-TELAPOS();
+                  end
+                else
+                  if (converseVar.eventKey is pf5) /* cursor no parametro*/
+                    if ("A" in T170UM01.T170UI-ACAO
+                     or "E" in T170UM01.T170UI-ACAO
+                     or "I" in T170UM01.T170UI-ACAO)
+                      converseLib.validationFailed(31); /* aviso  atualizar;*/
+                    else
+                      set T170UM01.T170UI-PARAMETRO cursor;
+                    end
+                  else
+                    if (converseVar.eventKey is pf1) /* ajuda*/
+                      ZZZ00S-AJUDA(); /* rotina de ajuda*/
+                      if (converseVar.validationMsgNum == 0)
+                        converseLib.validationFailed(31); /* aviso  atualizar;*/
+                      end
+                    else
+                      if (converseVar.eventKey is pf4) /* menu*/
+                        if ("A" in T170UM01.T170UI-ACAO
+                         or "E" in T170UM01.T170UI-ACAO
+                         or "I" in T170UM01.T170UI-ACAO)
+                          converseLib.validationFailed(31); /* aviso  atualizar;*/
+                        else
+                          NA000I-DESTINO-CALL = "MENU";
+                          T170UP-EXE-DESTINO();
+                        end
+                      else
+                        if (converseVar.eventKey is pf12)
+                          if ("A" in T170UM01.T170UI-ACAO
+                           or "E" in T170UM01.T170UI-ACAO
+                           or "I" in T170UM01.T170UI-ACAO)
+                            converseLib.validationFailed(31); /* aviso  atualizar;*/
+                          else
+                            NA000I-DESTINO-CALL = "FIM";
+                            T170UP-EXE-DESTINO();
+                          end
+                        else
+                          converseLib.validationFailed(7); /* tecla invalida*/
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end /* while 1=1*/
+end // end T170UP-EXE-PRINC
+
+// Trata PF7
+Function T170UP-EXE-TELAANT()
+  if (T170UW01.T170UI-TELA == 1)
+    converseLib.validationFailed(23); /* inicio da lista;*/
+  else
+    T170UW01.T170UI-TELA = T170UW01.T170UI-TELA - 1;
+    if (T170UW01.T170UI-TELA <= 1)
+      converseLib.validationFailed(23); /* inicio da lista;*/
+    end
+    T170UP-EXE-MONTELA();
+  end
+end // end T170UP-EXE-TELAANT
+
+// Trata PF8
+Function T170UP-EXE-TELAPOS()
+  if (T170UM01.T170UI-SI-UF[13] == " ")
+    converseLib.validationFailed(24); /* fim da lista;*/
+  else
+    T170UW01.T170UI-TELA = T170UW01.T170UI-TELA + 1;
+    T170UP-EXE-MONTELA();
+    if (T170UM01.T170UI-SI-UF[1] == " ")
+      T170UW01.T170UI-TELA = T170UW01.T170UI-TELA - 1;
+      T170UP-EXE-MONTELA();
+      converseLib.validationFailed(24); /* fim da lista;*/
+    end
+  end
+end // end T170UP-EXE-TELAPOS
+
+// Cada linha Unidade Federacao
+Function T170UP-SCN-81()
+  NA000I-PROCESSO = "T170UP-SCN-81";
+  try
+    get next SRHXVW81_UNID_FED ;
+    onException NA000S-INQ-SCN-UPD() ;
+  end
+end // end T170UP-SCN-81
+
+// Cursor - Unidade Federacao
+Function T170UP-SEQ-81()
+  NA000I-PROCESSO = "T170UP-SEQ-81";
+  try
+    open T170UP-SEQ-81_RSI01
+      with #sql{
+        select SI_UF, NO_UF
+        from db2adm.srhpvw81_unid_fed T1
+        WHERE
+          SI_UF <> ' '
+        ORDER BY
+          1 ASC
+      }      
+      into SI_UF, NO_UF
+      for SRHXVW81_UNID_FED ;
+    onException NA000S-SEQ-SUP() ;
+  end
+end // end T170UP-SEQ-81
+
+// Altera linha Unidade Federacao
+Function T170UP-SQX-ALTERA()
+  NA000I-PROCESSO = "T170UP-SQX-ALTERA";
+  try
+    execute update 
+      #sql{
+        UPDATE
+          db2adm.srhpvw81_unid_fed T1
+        SET
+          NO_UF=:NO_UF
+        where si_uf=:SI_UF
+      }
+      for SRHXVW81_UNID_FED ; // model = update
+    onException NA000S-SQX-DEL-REP() ;
+  end
+end // end T170UP-SQX-ALTERA
+
+// Deleta linha Unidade Federacao
+Function T170UP-SQX-DELECAO()
+  NA000I-PROCESSO = "T170UP-SQX-DELECAO";
+  try
+    execute delete 
+      #sql{
+        DELETE FROM
+          db2adm.srhpvw81_unid_fed T1
+        Where si_uf=:SI_UF
+      }
+      for SRHXVW81_UNID_FED ; // model = delete
+    onException NA000S-SQX-DEL-REP() ;
+  end
+end // end T170UP-SQX-DELECAO
+
+// Critica Acao (A,E e I)
+Function T170US-CRIT-ACAO()
+  T170UI-IND = 0;
+  while (T170UI-IND < 13)
+    T170UI-IND = T170UI-IND + 1;
+    if (T170UM01.T170UI-ACAO[T170UI-IND] == " "
+     or T170UM01.T170UI-ACAO[T170UI-IND] == "A"
+     or T170UM01.T170UI-ACAO[T170UI-IND] == "E"
+     or T170UM01.T170UI-ACAO[T170UI-IND] == "I")
+      if (T170UM01.T170UI-ACAO[T170UI-IND] == " " /* atual =  ' '*/
+       and T170UW01.T170UI-ACAO[T170UI-IND] != " ") /* anterior ne ' '*/
+  /* ..............Restaura a linha*/
+        T170UM01.T170UI-SI-UF[T170UI-IND] = T170UW01.T170UI-SI-UF[T170UI-IND];
+        T170UM01.T170UI-NO-UF[T170UI-IND] = T170UW01.T170UI-NO-UF[T170UI-IND];
+      else
+  /* ..............Restaura a acao*/
+        if (T170UW01.T170UI-ACAO[T170UI-IND] != " " /* anterior ne ' '*/
+         and T170UM01.T170UI-ACAO[T170UI-IND] !=    
+        T170UW01.T170UI-ACAO[T170UI-IND])           /* acao atual ne anterior*/
+          T170UM01.T170UI-ACAO[T170UI-IND] = T170UW01.T170UI-ACAO[T170UI-IND]; /* Volta acao anterior*/
+        end
+      end
+  /* ;;;;;;;;;;;;;;;;;;;;*/
+      if (T170UM01.T170UI-ACAO[T170UI-IND] == "A")
+        if (T170UM01.T170UI-SI-UF[T170UI-IND] == " ")
+          T170UM01.T170UI-ACAO[T170UI-IND] = " ";
+        else
+          set T170UM01.T170UI-NO-UF[T170UI-IND] normal;
+        end
+      else
+        if (T170UM01.T170UI-ACAO[T170UI-IND] == "I")
+          T170UM01.T170UI-SI-UF[T170UI-IND] = " ";
+          T170UM01.T170UI-NO-UF[T170UI-IND] = " ";
+          set T170UM01.T170UI-SI-UF[T170UI-IND] normal;
+          set T170UM01.T170UI-NO-UF[T170UI-IND] normal;
+        else
+          if (T170UM01.T170UI-ACAO[T170UI-IND] == "E")
+            if (T170UM01.T170UI-SI-UF[T170UI-IND] == 0)
+              T170UM01.T170UI-ACAO[T170UI-IND] = " ";
+            else
+              set T170UM01.T170UI-SI-UF[T170UI-IND] protect, bold;
+              set T170UM01.T170UI-NO-UF[T170UI-IND] protect, bold;
+            end
+          else
+            set T170UM01.T170UI-SI-UF[T170UI-IND] protect;
+            set T170UM01.T170UI-NO-UF[T170UI-IND] protect;
+          end
+        end
+      end
+   /* ;;;;;;;;;;;;;;;*/
+      T170UW01.T170UI-ACAO[T170UI-IND] = T170UM01.T170UI-ACAO[T170UI-IND]; /* Guarda acao atual*/
+    else
+      set T170UM01.T170UI-SI-UF[T170UI-IND] protect;
+      set T170UM01.T170UI-NO-UF[T170UI-IND] protect;
+      if (converseVar.validationMsgNum == 0)
+        converseLib.validationFailed(21); /* acao invalida;*/
+        set T170UM01.T170UI-ACAO[T170UI-IND] bold, cursor, modified;
+      else
+        set T170UM01.T170UI-ACAO[T170UI-IND] bold, modified;
+      end
+    end
+  end
+  set T170UM01.T170UI-ACAO[1] bold, cursor;
+  if (converseVar.validationMsgNum == 0)
+    set T170UM01.T170UI-ACAO[1] bold, cursor;
+    T170UI-IND = 0;
+    while (T170UI-IND < 13)
+      T170UI-IND = T170UI-IND + 1;
+      if (T170UM01.T170UI-ACAO[T170UI-IND] != " ")
+        set T170UM01.T170UI-ACAO[T170UI-IND] bold, cursor;
+        T170UI-IND = 13;
+      end
+    end
+  else
+    if (converseVar.validationMsgNum == 21) /* acao invalida*/
+      T170UI-IND = 0;
+      while (T170UI-IND < 13)
+        T170UI-IND = T170UI-IND + 1;
+        if (T170UM01.T170UI-ACAO[T170UI-IND] != " "
+         and T170UM01.T170UI-ACAO[T170UI-IND] != "A"
+         and T170UM01.T170UI-ACAO[T170UI-IND] != "E"
+         and T170UM01.T170UI-ACAO[T170UI-IND] != "I")
+          set T170UM01.T170UI-ACAO[T170UI-IND] bold, cursor;
+          T170UI-IND = 13;
+        end
+      end
+    end
+  end
+end // end T170US-CRIT-ACAO
+
+// Rotina de mapa help
+Function ZZZ00S-AJUDA()
+   /* ==========================================*/
+   /* Rotina de chamamento do modulo de Ajuda =*/
+   /* ==========================================*/
+  ;
+  NA000I-ERRO-CALL = 0;
+  NA000I-SISTEMA77 = NA000W01.NA000I-SISTEMA;
+  move NA000I-APL-77MADA to NA000I-APL-CHAMADA withV60Compat;
+  NA000I-USUARIO77 = NA000W01.NA000I-USUARIO;
+  call "AJ02CA0" (NA000I-APELIDO-77MOU, NA000I-NOM-77MOU, NA000I-USUARIO77, NA000I-APELIDO-77MADA, NA000I-NOM-77MADA, NA000I-MAPA77, NA000I-SISTEMA77, NA000I-APL-77MOU, NA000I-APL-77MADA, NA000I-TRANS-CICS-CALL, NA000I-ERRO-CALL) {isNoRefresh = yes};
+  if (NA000I-ERRO-CALL == 9999)
+    converseLib.validationFailed();
+  else
+    converseLib.validationFailed(NA000I-ERRO-CALL);
+  end
+   /* IF NA000I-ERRO-CALL NE 0;*/
+    /* AND NA000I-ERRO-CALL NE 73;*/
+    /* MOVE NA000I-APL-CHAMADA TO NA000I-APL-77MADA;*/
+    /* ;/* MOVE NA000I-TRANS-CICS-CALL TO EZEAPP;*/
+    /* CALL EZECOMIT;*/
+    /* DXFR EZEAPP NA000W01;*/
+   /* END;*/
+end // end ZZZ00S-AJUDA
+
+//*** PROGRAM=T170UA0 ****
+// *==========================================================*
+// *        SISRH    -    SISTEMA DE RECURSOS HUMANOS         *
+// *==========================================================*
+// *                                                          *
+// * Aplicacao : T170UA0       Tipo: CSP/On line              *
+// *                                                          *
+// * Objetivos : Atualizar a Tabela de Unidade da Federacao   *
+// *                                                          *
+// * Tabela    : SRHXVW81_UNID_FED                            *
+// *                                                          *
+// * Analista/Prog.:Christianne / Margaret                    *
+// * Data concl. :      /93                                   *
+// *                                                          *
+// *==========================================================*
+// *                      MANUTENCOES                         *
+// *==========================================================*
+// *   JOSINALDO ........................   /05/1998          *
+// * - Adaptacao da data ao ano 2000                          *
+// *   FERNANDO LUCAS DE OLIVEIRA ....... 07/08/1998          *
+// * - Padronizacao do mapa e mensagens da paginacao.         *
+// *                                                          *
+// *==========================================================*
+// ************************
+Program T170UA0 type textUIProgram //VAGen Info - main text program
+  {
+  includeReferencedFunctions = yes, allowUnqualifiedItemReferences = yes, 
+  throwNrfEofExceptions = yes, handleHardIOErrors = no, V60ExceptionCompatibility = yes, 
+  I4GLItemsNullable = no, textLiteralDefaultIsString = no, localSQLScope = yes, 
+  msgTablePrefix = "SRHD", inputRecord = NA000W01, segmented = yes
+  }
+
+  // Data Declarations
+  NA000W01 NA000W01 ; // record
+  NA000W01_Level77Items NA000W01_Level77Items { initialized = yes }; // record
+  NAEXTW01 NAEXTW01; // record
+  SRHXVW81_UNID_FED SRHXVW81_UNID_FED; // record
+  SYSIBM_FOREIGNKEYS SYSIBM_FOREIGNKEYS; // record
+  T170UW01 T170UW01; // record
+
+  // VAGen Info - items needed for migration
+  VAGen_EZESYS char(8);
+  VAGen_EZEREPLY num(1);
+  VAGen_EZE_WAIT_TIME bin(9,2);
+  VAGen_EZE_ITEMLEN int;
+
+  // Use Declarations
+  use T170UG.T170UM01 // form
+   {
+    validationBypassKeys = [pf3, pf6],
+    pfKeyEquate = yes
+  };
+
+  function main()
+    // VAGen Info - initialization needed for migration
+    VAGen_EZESYS = VGLib.getVAGSysType();
+    T170UP-EXE-PRINC: T170UP-EXE-PRINC();
+  end // end main
+end // end T170UA0
+
